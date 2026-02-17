@@ -1,0 +1,25 @@
+[package]
+name = "vsql-sync-server"
+edition.workspace = true
+version.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "vsql-sync"
+path = "src/main.rs"
+
+[dependencies]
+vsql-sync-core = { path = "../vsql-sync-core" }
+clap = { workspace = true }
+tokio = { workspace = true }
+axum = { workspace = true }
+tokio-postgres = { workspace = true }
+rustls = { workspace = true }
+tokio-rustls = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+chrono = { workspace = true }
+rustls-pemfile = { workspace = true }
+hyper = { workspace = true }
+hyper-util = { workspace = true }
+tower = { workspace = true }
