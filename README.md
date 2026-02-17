@@ -695,7 +695,7 @@ Phase 1 does not include bidirectional replication, payload encryption, air-gap 
 - [VibeSQL Edge](https://github.com/PayEz-Net/vibesql-edge) — Authentication gateway
 - [VibeSQL Audit](https://github.com/PayEz-Net/vibesql-audit) — PCI DSS compliant audit logging (Req 10)
 - [VibeSQL Sync](https://github.com/PayEz-Net/vibesql-sync) — This project. Governed bi-directional replication.
-- [CryptAply](https://github.com/PayEz-Net/cryptaply) — Key governance authority. Encryption policy enforcement.
+- [CryptAply](https://cryptaply.com) — Key governance authority. Encryption policy enforcement.
 - [Vibe SDK](https://github.com/PayEz-Net/vibe-sdk) — TypeScript ORM with live schema sync
 
 ---
